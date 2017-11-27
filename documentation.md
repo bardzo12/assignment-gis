@@ -38,24 +38,105 @@ Stage, castel, nature type information are from Open Street Maps. I downloaded a
 
 ## Api
 
+I used POST api calls becouse I send data about stage (polyline).
+
 **Find Healthcare points**
 
-`GET /search?lat=25346&long=46346123`
-
-**Find hotels by name, sorted by proximity and quality**
-
-`GET /search?name=hviezda&lat=25346&long=46346123`
-
-### Response
-
-API calls return json responses with 2 top-level keys, `hotels` and `geojson`. `hotels` contains an array of hotel data for the sidebar, one entry per matched hotel. Hotel attributes are (mostly self-evident):
+`POST /api/v1/health_car`
 ```
 {
-  "name": "Modra hviezda",
-  "style": "modern", # cuisine style
-  "stars": 3,
-  "address": "Panska 31"
-  "image_url": "/assets/hotels/652.png"
+  "type": "doctors,clinic",
+  "points":[
+    {
+			"lat": 49.13895,
+			"lng": 19.94654
+		},
+		{
+			"lat": 49.13894,
+			"lng": 19.94631
+		},
+		{
+			"lat": 49.1389,
+			"lng": 19.94593
+		}
+  ]
 }
 ```
-`geojson` contains a geojson with locations of all matched hotels and style definitions.
+
+**Find castle**
+
+`POST /api/v1/castle`
+```
+{
+			"lat": 48.895655,
+			"lng": 18.045414
+}
+```
+
+**List of districts (in Slovak „okres, kraj“) of the stage**
+
+`POST /api/v1/administrative`
+```
+{
+  "administrative": "okres",
+  "points":[
+    {
+			"lat": 49.13895,
+			"lng": 19.94654
+		},
+		{
+			"lat": 49.13894,
+			"lng": 19.94631
+		},
+		{
+			"lat": 49.1389,
+			"lng": 19.94593
+		}
+  ]
+}
+```
+
+**List of districts (in Slovak „okres, kraj“) of the stage**
+
+`POST /api/v1/administrative`
+```
+{
+  "administrative": "okres",
+  "points":[
+    {
+			"lat": 49.13895,
+			"lng": 19.94654
+		},
+		{
+			"lat": 49.13894,
+			"lng": 19.94631
+		},
+		{
+			"lat": 49.1389,
+			"lng": 19.94593
+		}
+  ]
+}
+```
+
+**Constrain of the stage (forest, recevoir, orchard, ...)**
+
+`POST /api/v1/land_use`
+```
+{
+ "points":[
+    {
+			"lat": 49.13895,
+			"lng": 19.94654
+		},
+		{
+			"lat": 49.13894,
+			"lng": 19.94631
+		},
+		{
+			"lat": 49.1389,
+			"lng": 19.94593
+		}
+  ]
+}
+```
