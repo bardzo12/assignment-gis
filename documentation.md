@@ -45,21 +45,21 @@ I used POST api calls becouse I send data about stage (polyline).
 `POST /api/v1/health_car`
 ```
 {
-  "type": "doctors,clinic",
-  "points":[
-    {
-			"lat": 49.13895,
-			"lng": 19.94654
-		},
-		{
-			"lat": 49.13894,
-			"lng": 19.94631
-		},
-		{
-			"lat": 49.1389,
-			"lng": 19.94593
-		}
-  ]
+   "type":"doctors,clinic",
+   "points":[
+      {
+         "lat":49.13895,
+         "lng":19.94654
+      },
+      {
+         "lat":49.13894,
+         "lng":19.94631
+      },
+      {
+         "lat":49.1389,
+         "lng":19.94593
+      }
+   ]
 }
 ```
 
@@ -68,54 +68,32 @@ I used POST api calls becouse I send data about stage (polyline).
 `POST /api/v1/castle`
 ```
 {
-			"lat": 48.895655,
-			"lng": 18.045414
+   "lat":48.895655,
+   "lng":18.045414
 }
 ```
+
 
 **List of districts (in Slovak „okres, kraj“) of the stage**
 
 `POST /api/v1/administrative`
 ```
 {
-  "administrative": "okres",
-  "points":[
-    {
-			"lat": 49.13895,
-			"lng": 19.94654
-		},
-		{
-			"lat": 49.13894,
-			"lng": 19.94631
-		},
-		{
-			"lat": 49.1389,
-			"lng": 19.94593
-		}
-  ]
-}
-```
-
-**List of districts (in Slovak „okres, kraj“) of the stage**
-
-`POST /api/v1/administrative`
-```
-{
-  "administrative": "okres",
-  "points":[
-    {
-			"lat": 49.13895,
-			"lng": 19.94654
-		},
-		{
-			"lat": 49.13894,
-			"lng": 19.94631
-		},
-		{
-			"lat": 49.1389,
-			"lng": 19.94593
-		}
-  ]
+   "administrative":"okres",
+   "points":[
+      {
+         "lat":49.13895,
+         "lng":19.94654
+      },
+      {
+         "lat":49.13894,
+         "lng":19.94631
+      },
+      {
+         "lat":49.1389,
+         "lng":19.94593
+      }
+   ]
 }
 ```
 
@@ -124,19 +102,19 @@ I used POST api calls becouse I send data about stage (polyline).
 `POST /api/v1/land_use`
 ```
 {
- "points":[
-    {
-			"lat": 49.13895,
-			"lng": 19.94654
-		},
-		{
-			"lat": 49.13894,
-			"lng": 19.94631
-		},
-		{
-			"lat": 49.1389,
-			"lng": 19.94593
-		}
-  ]
+   "points":[
+      {
+         "lat":49.13895,
+         "lng":19.94654
+      },
+      {
+         "lat":49.13894,
+         "lng":19.94631
+      },
+      {
+         "lat":49.1389,
+         "lng":19.94593
+      }
+   ]
 }
 ```
