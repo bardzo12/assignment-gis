@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_stage_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Aminity.ui.StageAminityActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/map"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <CheckBox
+            android:id="@+id/pharmacyCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_alignLeft="@+id/hospitalCheckBox"
+            android:layout_alignStart="@+id/hospitalCheckBox"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Lekáreň" />
+
+        <CheckBox
+            android:id="@+id/hospitalCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView6"
+            android:layout_alignLeft="@+id/doctorCheckBox"
+            android:layout_alignStart="@+id/doctorCheckBox"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Nemocnica" />
+
+        <CheckBox
+            android:id="@+id/doctorCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView5"
+            android:layout_alignLeft="@+id/dentistCheckBox"
+            android:layout_alignStart="@+id/dentistCheckBox"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Doktor" />
+
+        <CheckBox
+            android:id="@+id/dentistCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView4"
+            android:layout_alignLeft="@+id/clinicCheckBox"
+            android:layout_alignStart="@+id/clinicCheckBox"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Zubár" />
+
+        <CheckBox
+            android:id="@+id/clinicCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView3"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="Klinika" />
+
+        <SeekBar
+            android:id="@+id/distanceSeekBar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/clinicCheckBox"
+            android:layout_toEndOf="@+id/pharmacyCheckBox"
+            android:layout_toRightOf="@+id/pharmacyCheckBox"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:max="50"
+            android:progress="5" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            map:srcCompat="@drawable/ic_clinic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView"
+            android:layout_below="@+id/imageView"
+            android:padding="6dp"
+            map:srcCompat="@drawable/ic_dentist" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_below="@+id/imageView3"
+            android:padding="6dp"
+            map:srcCompat="@drawable/ic_doctor" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView4"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_below="@+id/imageView4"
+            android:padding="6dp"
+            map:srcCompat="@drawable/ic_local_hospital" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView5"
+            android:layout_alignStart="@+id/imageView5"
+            android:layout_below="@+id/imageView5"
+            android:padding="6dp"
+            map:srcCompat="@drawable/ic_pharmacy" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/dentistCheckBox"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/hospitalCheckBox"
+            android:layout_toRightOf="@+id/hospitalCheckBox"
+            android:text="Vzdialenosť od trate" />
+
+        <Button
+            android:id="@+id/findBbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView18"
+            android:layout_alignStart="@+id/textView18"
+            android:layout_alignTop="@+id/hospitalCheckBox"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/button_design"
+            android:text="Hladať"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/distanceSeekBar"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:layout_toEndOf="@+id/hospitalCheckBox"
+            android:layout_toRightOf="@+id/hospitalCheckBox"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/colorPrimary"
+        android:subtitle="KOŠICE - KOSTOĽANY NAD HORNÁDOM"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/back_button"
+                android:src="@drawable/ic_back_white"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="@dimen/large_margin"
+                android:paddingStart="@dimen/large_margin"
+                android:paddingEnd="@dimen/large_margin"
+                android:paddingRight="@dimen/large_margin"
+                android:drawablePadding="@dimen/large_margin"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/back_button"
+                android:layout_toRightOf="@+id/back_button"
+                android:text="ETAPA I"
+                android:textAllCaps="true"
+                android:textColor="@color/backgroundColor1"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/linearLayout3"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/rl_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        map:cameraTargetLat="48.804027"
+        map:cameraTargetLng="19.582291"
+        map:cameraZoom="6" />
+
+</android.support.constraint.ConstraintLayout>

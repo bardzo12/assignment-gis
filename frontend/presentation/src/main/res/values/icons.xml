@@ -1,0 +1,17 @@
+<resources>
+    <string name="icon_check_in_the_run">&#x61;</string>
+    <string name="icon_uvod_the_run">&#x62;</string>
+    <string name="icon_hviezda_the_run">&#x63;</string>
+    <string name="icon_zdravotnici_the_run">&#x64;</string>
+    <string name="icon_ibeacon_the_run">&#x66;</string>
+    <string name="icon_mapa_poloha_the_run">&#x66;</string>
+    <string name="icon_mapa_the_run">&#x67;</string>
+    <string name="icon_oko_the_run">&#x68;</string>
+    <string name="icon_pocasie_dazd_the_run">&#x69;</string>
+    <string name="icon_pocasie_oblacno_the_run">&#x6a;</string>
+    <string name="icon_pocasie_slnko_the_run">&#x6b;</string>
+    <string name="icon_pocasie_vietor_the_run">&#x6c;</string>
+    <string name="icon_pocasie_zamracene_the_run">&#x6d;</string>
+    <string name="icon_poradie_the_run">&#x6e;</string>
+    <string name="icon_qr_kod_the_run">&#x6f;</string>
+</resources>

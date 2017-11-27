@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    tools:context="sk.pixwell.therun.presentation.Dashboard.fragments.Rank.RankViewPager.ui.TeamListFragment">
+
+    <TextView
+        android:id="@+id/rankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rankTextView"
+        android:layout_alignBottom="@+id/rankTextView"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toEndOf="@+id/rankTextView"
+        android:layout_toRightOf="@+id/rankTextView"
+        android:text="Meno" />
+
+    <TextView
+        android:id="@+id/teamTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:text="Tím" />
+
+</RelativeLayout>

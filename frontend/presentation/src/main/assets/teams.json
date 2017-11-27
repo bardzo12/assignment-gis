@@ -1,0 +1,298 @@
+{
+	"data": [
+		{
+			"id": 8,
+			"name": "Bánovskí behúni",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "42:05:08,31",
+			"last_position": {
+				"has_checkin": "2017-06-03 18:15:00",
+				"distance_from_start": 2164590.4066667,
+				"segment_run_time": 7502,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2447,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 9,
+			"name": "Active life - Visit Košice",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "42:37:02,29",
+			"last_position": {
+				"has_checkin": "2017-06-03 18:30:00",
+				"distance_from_start": 2115302.4,
+				"segment_run_time": 7448,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2333,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 17,
+			"name": "OLTIS Group",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "45:06:17,87",
+			"last_position": {
+				"has_checkin": "2017-06-03 18:00:00",
+				"distance_from_start": 2037506.46,
+				"segment_run_time": 7428,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2481,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 28,
+			"name": "RED BULLS",
+			"min_runners": 12,
+			"runners": 11,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "45:57:22,18",
+			"last_position": {
+				"has_checkin": "2017-06-03 17:45:00",
+				"distance_from_start": 1975521.315,
+				"segment_run_time": 7401,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2625,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 7,
+			"name": "DXC Technology DREAM TEAM",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "46:08:30,07",
+			"last_position": {
+				"has_checkin": "2017-06-03 17:30:00",
+				"distance_from_start": 1973131.07,
+				"segment_run_time": 7441,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2622,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 2,
+			"name": "Accenture Beauties and Beasts",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "47:57:23,43",
+			"last_position": {
+				"has_checkin": "2017-06-03 16:45:00",
+				"distance_from_start": 1918790.4566667,
+				"segment_run_time": 7414,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2807,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 21,
+			"name": "FALCK RUNNING TEAM",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "48:24:28,33",
+			"last_position": {
+				"has_checkin": "2017-06-03 16:00:00",
+				"distance_from_start": 1923242.7333333,
+				"segment_run_time": 7415,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2762,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 18,
+			"name": "OBEHNI SVET",
+			"min_runners": 6,
+			"runners": 13,
+			"max_runners": 16,
+			"type": "THE RUN FREESTYLE FULL 6-16MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "48:34:25,64",
+			"last_position": {
+				"has_checkin": "2017-06-03 17:00:00",
+				"distance_from_start": 1900210.68,
+				"segment_run_time": 7356,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2646,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 5,
+			"name": "RTVS",
+			"min_runners": 12,
+			"runners": 13,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "49:13:19,05",
+			"last_position": {
+				"has_checkin": "2017-06-03 16:15:00",
+				"distance_from_start": 1901926.1366667,
+				"segment_run_time": 7406,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2788,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 27,
+			"name": "Protikorupcne komando",
+			"min_runners": 6,
+			"runners": 12,
+			"max_runners": 16,
+			"type": "THE RUN FREESTYLE FULL 6-16MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "50:01:50,55",
+			"last_position": {
+				"has_checkin": "2017-06-03 18:00:00",
+				"distance_from_start": 1869707.16,
+				"segment_run_time": 7409,
+				"segment_id": 46,
+				"track_point_id": 17866,
+				"run_minutes": 2686,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 4,
+			"name": "BEŽME BEŽNE 2.0",
+			"min_runners": 6,
+			"runners": 6,
+			"max_runners": 6,
+			"type": "THE RUN ULTRA FULL 6MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "50:36:22,29",
+			"last_position": {
+				"has_checkin": "2017-06-03 15:30:00",
+				"distance_from_start": 1855630.2916667,
+				"segment_run_time": 7415,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2897,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 23,
+			"name": "seveRUNky",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12W",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "50:46:31,62",
+			"last_position": {
+				"has_checkin": "2017-06-03 15:45:00",
+				"distance_from_start": 1843867.24,
+				"segment_run_time": 7382,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2907,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 3,
+			"name": "NEBUĎTE UBREČENÍ !!!",
+			"min_runners": 12,
+			"runners": 12,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "51:35:14,82",
+			"last_position": {
+				"has_checkin": "2017-06-03 15:00:00",
+				"distance_from_start": 1838976.7666667,
+				"segment_run_time": 7430,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2947,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		},
+		{
+			"id": 6,
+			"name": "kvrps Zvolen",
+			"min_runners": 12,
+			"runners": 13,
+			"max_runners": 12,
+			"type": "THE RUN MARATHON FULL 12MIX",
+			"section": "full",
+			"team_segments": 48,
+			"time_full": "51:57:09,98",
+			"last_position": {
+				"has_checkin": "2017-06-03 15:15:00",
+				"distance_from_start": 1812763.6266667,
+				"segment_run_time": 7391,
+				"segment_id": 48,
+				"track_point_id": 18248,
+				"run_minutes": 2871,
+				"lat": 48.01935012,
+				"lng": 17.29826213
+			}
+		}
+	]
+}

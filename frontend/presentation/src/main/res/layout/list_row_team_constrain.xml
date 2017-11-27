@@ -1,0 +1,52 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    tools:context="sk.pixwell.therun.presentation.Dashboard.fragments.Rank.RankViewPager.ui.TeamListFragment">
+
+    <TextView
+        android:id="@+id/rankTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/rankTextView"
+        android:layout_alignBottom="@+id/rankTextView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/rankTextView"
+        android:layout_toRightOf="@+id/rankTextView"
+        android:text="Názov tímu"
+        tools:layout_editor_absoluteY="2dp"
+        app:layout_constraintRight_toLeftOf="@+id/textView2"
+        android:layout_marginRight="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/rankTextView"
+        android:layout_marginLeft="8dp" />
+
+    <ImageView
+        android:id="@+id/starImageView"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:layout_editor_absoluteX="353dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">The Run 2018</string>
+
+    <string name="fontToolbar">fonts/Roboto-Medium.ttf</string>
+    <string name="action_example">action_1</string>
+    <string name="title_activity_dashboard">The run 2018</string>
+
+    <string name="exception_message_generic">No connection</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="openDrawer">open_drawer</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_1">Run 2018</string>
+    <string name="nav_2">Mapa</string>
+    <string name="nav_3">CHECK IN</string>
+    <string name="nav_4">Poradie 2017</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Run 2018</item>
+        <item>Mapa</item>
+        <item>CHECK IN</item>
+        <item>Poradie 2017</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="tafetov_hobby_beh">NAJDLHŚÍ ŠTAFETOVÝ BEH NAPRIEČ SLOVENSKOM</string>
+    <string name="d_ka_trate">Dĺžka trate:</string>
+    <string name="pocet_bezeckych_etap">Počet bežeckých etáp:</string>
+    <string name="termin_podujatia">Termín podujatia:</string>
+    <string name="datum"> 1.-3. jún 2018</string>
+    <string name="pocet_dni">29.10.2017 od 18:00</string>
+    <string name="do_zaciatku_preteku">ZAČIATOK REGISTRÁCIE</string>
+    <string name="start">ŠTART</string>
+    <string name="miesto_startu">Miesto: Košice, ul Hlavná</string>
+    <string name="termin_startu">Termín: piatok 2.6.2017 od 9.00 hod (priebežný štart)</string>
+    <string name="medzizastavka">MEDZIZASTÁVKA</string>
+    <string name="teplicka">Miesto: Teplička nad Váhom</string>
+    <string name="termin_medzizastavky">Termín: sobota 3.6.2017 od 8:00 do 19:00</string>
+    <string name="ciel">Cieľ</string>
+    <string name="mesto_cielu">Miesto: x-bionic® sphere – Šamorín (pri Bratislave)</string>
+    <string name="datum_cielu">Termín: nedeľa 4.6.2017 od 11:00 do 17-18:00 hod</string>
+
+</resources>

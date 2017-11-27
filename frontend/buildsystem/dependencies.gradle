@@ -1,0 +1,83 @@
+allprojects {
+  repositories {
+    jcenter()
+  }
+}
+
+ext {
+  //Android
+    androidBuildToolsVersion = "25.0.0"
+    androidMinSdkVersion = 15
+    androidTargetSdkVersion = 25
+    androidCompileSdkVersion = 25
+
+  //Libraries
+  daggerVersion = '2.8'
+  butterKnifeVersion = '8.4.0'
+  recyclerViewVersion = '27.0.1'
+  rxJavaVersion = '1.0.14'
+  rxAndroidVersion = '1.0.1'
+  javaxAnnotationVersion = '1.0'
+  javaxInjectVersion = '1'
+  gsonVersion = '2.8.2'
+  okHttpVersion = '3.6.0'
+  androidAnnotationsVersion = '27.0.1'
+  arrowVersion = '1.0.0'
+  androidSupportVersion = '27.0.1'
+    timberVersion = '4.3.1'
+  qrReader = '1.9.2'
+  mapsAPI = '11.6.0'
+  altBeaconVersion = '2.9.2'
+  PaAndroidChartVersion = '3.0.2'
+  fontyVersion = '0.1.6'
+
+  //Development
+  leakCanaryVersion = '1.3.1'
+
+  presentationDependencies = [
+          supportDesign:            "com.android.support:design:${androidSupportVersion}",
+          daggerCompiler:           "com.google.dagger:dagger-compiler:${daggerVersion}",
+          dagger:                   "com.google.dagger:dagger:${daggerVersion}",
+          butterKnifeCompiler:      "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+          butterKnife:              "com.jakewharton:butterknife:${butterKnifeVersion}",
+          butterKnifeAnnotation:    "com.jakewharton:butterknife-compiler:${butterKnifeVersion}",
+          recyclerView:             "com.android.support:recyclerview-v7:${recyclerViewVersion}",
+          rxJava:                   "io.reactivex:rxjava:${rxJavaVersion}",
+          rxAndroid:                "io.reactivex:rxandroid:${rxAndroidVersion}",
+          timber:                   "com.jakewharton.timber:timber:${timberVersion}",
+          javaxAnnotation:          "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+          qrReaderCompiler:         "me.dm7.barcodescanner:zxing:${qrReader}",
+          mapsCompiler:             "com.google.android.gms:play-services-maps:${mapsAPI}",
+          locationCompiler:         "com.google.android.gms:play-services-location:${mapsAPI}",
+          wearableCompiler:         "com.google.android.gms:play-services-wearable:${mapsAPI}",
+          gmsCompiler:                "com.google.android.gms:play-services:${mapsAPI}",
+          altBeacon:                "org.altbeacon:android-beacon-library:${altBeaconVersion}",
+          PAndroidChart:            "com.github.PhilJay:MPAndroidChart:v${PaAndroidChartVersion}",
+          fonty:                    "com.shamanland:fonticon:${fontyVersion}"
+  ]
+
+  domainDependencies = [
+      javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+      javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
+      rxJava:             "io.reactivex:rxjava:${rxJavaVersion}",
+      timber:             "com.jakewharton.timber:timber:${timberVersion}",
+      arrow:              "com.fernandocejas:arrow:${arrowVersion}"
+  ]
+
+  dataDependencies = [
+      daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
+      dagger:             "com.google.dagger:dagger:${daggerVersion}",
+      okHttp:             "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+      gson:               "com.google.code.gson:gson:${gsonVersion}",
+      rxJava:             "io.reactivex:rxjava:${rxJavaVersion}",
+      rxAndroid:          "io.reactivex:rxandroid:${rxAndroidVersion}",
+      javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+      javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
+      timber:             "com.jakewharton.timber:timber:${timberVersion}",
+      androidAnnotations: "com.android.support:support-annotations:${androidAnnotationsVersion}"
+  ]
+
+  developmentDependencies = [
+      leakCanary: "com.squareup.leakcanary:leakcanary-android:${leakCanaryVersion}",
+  ]
+}

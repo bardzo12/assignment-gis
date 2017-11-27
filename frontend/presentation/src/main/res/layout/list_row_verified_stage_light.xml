@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/background"
+    android:background="@color/white"
+    tools:context="sk.pixwell.therun.presentation.Dashboard.fragments.Rank.RankViewPager.ui.TeamListFragment">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Názov tímu"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/starImageView"
+        android:layout_toStartOf="@+id/checkImageView"
+        android:layout_toLeftOf="@+id/checkImageView" />
+
+    <ImageView
+        android:id="@+id/checkImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp" />
+</RelativeLayout>

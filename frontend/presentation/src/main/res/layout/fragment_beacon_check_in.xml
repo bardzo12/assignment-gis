@@ -1,0 +1,112 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Dashboard.fragments.CheckIn.ui.CheckInFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/firtLineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:text="Pre odštartovanie etapy sa priblížte"
+            android:textColor="@color/selected_text_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/secondLineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:text="k etapovej tabuli a stlačte overiť"
+            android:textColor="@color/selected_text_color"
+            android:textSize="18sp" />
+
+        <pl.bclogic.pulsator4droid.library.PulsatorLayout
+            android:id="@+id/pulsator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:pulse_color="@color/colorPrimary"
+            app:pulse_count="4"
+            app:pulse_duration="7000"
+            app:pulse_interpolator="Linear"
+            app:pulse_repeat="0"
+            app:pulse_startFromScratch="false">
+
+        </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+        <Button
+            android:id="@+id/checkInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/oval_button_no_active"
+            android:fontFamily="sans-serif"
+            android:text="OVERIŤ"
+            android:textAllCaps="false"
+            android:textColor="@color/textColorButton2"
+            android:textSize="29sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/errorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="iBeacon overenie nie je dostupné"
+            android:textColor="@color/selected_text_color"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/bluetoothTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/errorTextView"
+            android:layout_centerHorizontal="true"
+            android:text="Zapnite na telefóne bluetooth"
+            android:textColor="@color/selected_text_color"
+            android:textSize="18sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/manual_edittext_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"
+            android:textColorHint="@color/selected_text_color"
+            app:hintTextAppearance="@style/HintTextStyle2">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/manual_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:hint="V prípade problémov zajte kód manuálne"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/selected_text_color"
+                android:textColorHighlight="@color/selected_text_color"
+                android:textColorHint="@color/selected_text_color"
+                android:textColorLink="@color/selected_text_color"
+                app:theme="@style/EditTextStyle" />
+        </android.support.design.widget.TextInputLayout>
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e84b15</color>
+    <color name="colorPrimaryOpacity">#2ae84b15</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="textColorPrimary">#39b92b</color>
+    <color name="fieldBackground">#f6f6f6</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#f6f6f6</color>
+    <color name="backgroundColor1">#FFFFFF</color>
+    <color name="backgroundColor">#F7F7F7</color>
+    <color name="drawerMenuText">#424653</color>
+    <color name="textColorButton2">#6F727C</color>
+    <color name="diverColor">#D8D9DC</color>
+    <color name="silverColor">#8C8C8C</color>
+
+
+    <color name="darkTextcolor">#000000</color>
+    <color name="lightTextcolor">#808681</color>
+    <color name="lightButton">#d1d1d1</color>
+    <color name="textButton">#FFFFFF</color>
+    <color name="darkButton">#373737</color>
+    <color name="darkbutton">#373737</color>
+    <color name="lightbutton">#d1d1d1</color>
+    <color name="lightBackgroundColor">#FFFFFF</color>
+    <color name="hamburgerRed">#b70002</color>
+    <color name="hamburgerBack">#f9f9f9</color>
+    <color name="hamburgerText">#000d03</color>
+    <color name="toolbarButton">#E7B8BD</color>
+    <color name="toolbarShop">#e8e7e2</color>
+    <color name="transparent">#34000000</color>
+    <color name="textColor">#ffffff</color>
+    <color name="noSelectButton">#D0D1D4</color>
+    <color name="lightTextColor">#C6C7CB</color>
+
+    <color name="indigo">#facb30</color>
+    <color name="pink">#00838f</color>
+    <color name="dark">#b69b9b</color>
+
+    <color name="color1">#ffffff</color>
+    <color name="color2">#000D03</color>
+    <color name="color3">#333D35</color>
+    <color name="color4">#C11733</color>
+    <color name="color5">#202020</color>
+    <color name="color6">#BDBDBD</color>
+    <color name="color7">#F1F1F1</color>
+    <color name="color8">#000000</color>
+    <color name="color9">#DBDBDB</color>
+    <color name="color10">#A4A6A4</color>
+    <color name="color11">#00C7FC</color>
+    <color name="tab_color">#FFFFFF</color>
+    <color name="selected_text_color">#353947</color>
+    <color name="weather_icon_color">#565F73</color>
+    <color name="unselected_text_color">#BCBFCB</color>
+    <color name="backgroundColor2">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,484 @@
+{
+	"data":[
+		{
+			"id": 1,
+			"code": "7re-1",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "21"
+			}
+		},
+		{
+			"id": 2,
+			"code": "a48-2",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "118"
+			}
+		},
+		{
+			"id": 3,
+			"code": "mnd-3",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "19"
+			}
+		},
+		{
+			"id": 4,
+			"code": "ayd-4",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "34"
+			}
+		},
+		{
+			"id": 5,
+			"code": "len-5",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "92"
+			}
+		},
+		{
+			"id": 6,
+			"code": "jon-6",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "124"
+			}
+		},
+		{
+			"id": 7,
+			"code": "aw2-7",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "33"
+			}
+		},
+		{
+			"id": 8,
+			"code": "3zh-8",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "36"
+			}
+		},
+		{
+			"id": 9,
+			"code": "amo-9",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "26"
+			}
+		},
+		{
+			"id": 10,
+			"code": "ytj-10",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "114"
+			}
+		},
+		{
+			"id": 11,
+			"code": "ov5-11",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "31"
+			}
+		},
+		{
+			"id": 12,
+			"code": "4iz-12",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "23"
+			}
+		},
+		{
+			"id": 13,
+			"code": "dnw-13",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "121"
+			}
+		},
+		{
+			"id": 14,
+			"code": "ruq-14",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "125"
+			}
+		},
+		{
+			"id": 15,
+			"code": "ltm-15",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "37"
+			}
+		},
+		{
+			"id": 16,
+			"code": "p2v-16",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "117"
+			}
+		},
+		{
+			"id": 17,
+			"code": "vgc-17",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "119"
+			}
+		},
+		{
+			"id": 18,
+			"code": "mgm-18",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "24"
+			}
+		},
+		{
+			"id": 19,
+			"code": "gvz-19",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "32"
+			}
+		},
+		{
+			"id": 20,
+			"code": "xju-20",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "122"
+			}
+		},
+		{
+			"id": 21,
+			"code": "tlm-21",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "123"
+			}
+		},
+		{
+			"id": 22,
+			"code": "o3g-22",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "99"
+			}
+		},
+		{
+			"id": 23,
+			"code": "phg-23",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "93"
+			}
+		},
+		{
+			"id": 24,
+			"code": "vm4-24",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "202"
+			}
+		},
+		{
+			"id": 25,
+			"code": "wqj-25",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "110"
+			}
+		},
+		{
+			"id": 26,
+			"code": "o1r-26",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "35"
+			}
+		},
+		{
+			"id": 27,
+			"code": "1gb-27",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "115"
+			}
+		},
+		{
+			"id": 28,
+			"code": "1me-28",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "97"
+			}
+		},
+		{
+			"id": 29,
+			"code": "lcl-29",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "109"
+			}
+		},
+		{
+			"id": 30,
+			"code": "l5q-30",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "111"
+			}
+		},
+		{
+			"id": 31,
+			"code": "z1p-31",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "107"
+			}
+		},
+		{
+			"id": 32,
+			"code": "xyn-32",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "113"
+			}
+		},
+		{
+			"id": 33,
+			"code": "dmt-33",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "108"
+			}
+		},
+		{
+			"id": 34,
+			"code": "fyx-34",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "27"
+			}
+		},
+		{
+			"id": 35,
+			"code": "svm-35",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "98"
+			}
+		},
+		{
+			"id": 36,
+			"code": "vvp-36",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "103"
+			}
+		},
+		{
+			"id": 37,
+			"code": "dh0-37",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "102"
+			}
+		},
+		{
+			"id": 38,
+			"code": "yov-38",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "106"
+			}
+		},
+		{
+			"id": 39,
+			"code": "cks-39",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "104"
+			}
+		},
+		{
+			"id": 40,
+			"code": "o4i-40",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "22"
+			}
+		},
+		{
+			"id": 41,
+			"code": "rww-41",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "90"
+			}
+		},
+		{
+			"id": 42,
+			"code": "vjc-42",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "25"
+			}
+		},
+		{
+			"id": 43,
+			"code": "tcq-43",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "100"
+			}
+		},
+		{
+			"id": 44,
+			"code": "j88-44",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "91"
+			}
+		},
+		{
+			"id": 45,
+			"code": "c7d-45",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "101"
+			}
+		},
+		{
+			"id": 46,
+			"code": "dul-46",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "105"
+			}
+		},
+		{
+			"id": 47,
+			"code": "my7-47",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "112"
+			}
+		},
+		{
+			"id": 48,
+			"code": "mit-48",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "120"
+			}
+		}
+	]
+}

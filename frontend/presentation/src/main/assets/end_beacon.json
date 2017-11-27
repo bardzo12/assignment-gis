@@ -1,0 +1,24 @@
+{
+	"data":[
+		{
+			"id": 999,
+			"code": "end_east",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "201"
+			}
+		},
+		{
+			"id": 888,
+			"code": "end_west",
+			"beacon":
+			{
+				"uuid": "DEADBEEF-CA1F-BABE-FEED-FEEDC0DEFACE",
+				"major": "1",
+				"minor": "28"
+			}
+		}
+	]
+}
