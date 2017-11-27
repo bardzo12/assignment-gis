@@ -12,7 +12,10 @@ I made an extension of that aplication, which brings that usecases:
 
 This is it in action:
 
-![Screenshot](screenshot.png)
+![Screenshot](1.png)
+![Screenshot](2.png)
+![Screenshot](3.png)
+![Screenshot](4.png)
 
 Android application is used as client application for the runners to display and typing the input to API calls on backend side. Two of the usecases are displayed directly to the map. One of the usecases displays on the graph and the fourth usecase displays the list of districts. 
 
