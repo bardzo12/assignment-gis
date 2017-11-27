@@ -1,0 +1,18 @@
+/**
+* Fix for latest Bootstrap Modals and not using modal.js
+*/
+.modal{
+  &.show{
+    display: block;
+    background: rgba(0,0,0,0.8)
+  }
+}
+
+/**
+ * Make Button cursor pointer
+ */
+button{
+  &.btn {
+    cursor: pointer;
+  }
+}
